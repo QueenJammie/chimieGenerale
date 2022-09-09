@@ -1,26 +1,46 @@
+function askingAge()
+{
+  let age = prompt("Quel âge as-tu, toi?");
+
+  if (age < 18)
+  {
+    alert("Hello, kid!");
+  }
+  else
+  {
+    alert("Hello!");
+  }
+}
+
 function deLavoisier()
 {
   alert("Antoine Laurent Lavoisier");
+  askingAge();
 }
 function avogadro()
 {
   alert("Amedeo Avogadro");
+  askingAge();
 }
 function pasteur()
 {
   alert("Louis Pasteur");
+  askingAge();
 }
 function nobel()
 {
   alert("Alfred Bernhard Nobel");
+  askingAge();
 }
 function mendeleïeve()
 {
   alert("Dmitri Ivanovitch Mendeleïev");
+  askingAge();
 }
 function curie()
 {
   alert("Marie Curie");
+  askingAge();
 }
 
 let alertDeLavoisier = document.querySelector("#deLavoisier");
