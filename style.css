@@ -1,3 +1,15 @@
+body
+{
+  background-image: url("images/chimistry.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+form.form-group
+{
+  background-color: #fff;
+  opacity: 0.9;
+  padding: 12px;
+}
 .header .menu-bar
 {
   margin-top: 7px;
@@ -104,11 +116,16 @@
 }
 .main .chimistryInfo
 {
-  background-color: #f5f5dc;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5dcba;
   padding: 6px;
   border: 1px solid #afc76dd4;
   border-bottom: 0;
   box-shadow: 1px 2px #263226da;
+}
+.main .chimistryInfo p
+{
+  font-family: 'PT Mono', monospace;
 }
 .main .chimistryInfo .hebraique
 {
@@ -137,6 +154,7 @@
 }
 .main .chimistes
 {
+  font-family: 'Roboto', sans-serif;
   padding: 5px;
   background-color: #f5f5dc;
   border: 1px solid #afc76dd4;
@@ -161,7 +179,7 @@
 {
   display: block;
   position: relative;
-  bottom: -100px;
+  bottom: 0px;
 }
 .subFooter
 {
@@ -198,7 +216,7 @@
   margin-right: 30px;
   margin-left: 30px;
   position: relative;
-  color: #6aa25d;
+  color: #b03b83;
   cursor: pointer;
   transition: all 0.2s;
   padding: 5px;
@@ -210,7 +228,7 @@
   font-family: sans-serif;
   margin-right: 15px;
   margin-left: 15px;
-  color: #6aa25d;
+  color: #b03b83;
   cursor: pointer;
   transition: all 0.2s;
   padding: 5px;
